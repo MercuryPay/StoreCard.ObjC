@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cIH-ts-RgL">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <scenes>
+        <!--Store Card-->
+        <scene sceneID="OMS-Fh-0L2">
+            <objects>
+                <viewController id="cIH-ts-RgL" customClass="StoreCard" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NmI-r9-iW0"/>
+                        <viewControllerLayoutGuide type="bottom" id="u4N-ed-Sj0"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ltf-17-NyO">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Sale (0)" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="o3g-pZ-hZP">
+                                <rect key="frame" x="229" y="59" width="310" height="45"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="540" y="187" width="163" height="24"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$100.00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BbL-R6-aHJ">
+                                <rect key="frame" x="234" y="152" width="300" height="67"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="62"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="259" y="148" width="250" height="75"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PrePaid" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G35-Q8-WzB">
+                                <rect key="frame" x="626" y="164" width="122" height="44"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="540" y="161" width="122" height="25"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zm5-aR-WM2">
+                                <rect key="frame" x="62" y="432" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="$10.00">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="327" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn10dollar:" destination="cIH-ts-RgL" eventType="touchUpInside" id="xpz-vF-DIl"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="W3R-VP-16L">
+                                <rect key="frame" x="62" y="359" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="$5.00">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="515" y="244" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn5dollar:" destination="cIH-ts-RgL" eventType="touchUpInside" id="E9o-ex-EIb"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aGD-fJ-HTh">
+                                <rect key="frame" x="62" y="286" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="$2.00">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="262" y="244" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn2dollar:" destination="cIH-ts-RgL" eventType="touchUpInside" id="RMa-UA-NOR"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEK-Hc-aiw">
+                                <rect key="frame" x="62" y="286" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="29"/>
+                                <state key="normal" title="$1.00">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="244" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn1dollar:" destination="cIH-ts-RgL" eventType="touchUpInside" id="4j9-zK-nuT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Mf-p7-Rxm">
+                                <rect key="frame" x="62" y="286" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="29"/>
+                                <state key="normal" title="$20.00">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="262" y="327" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn20dollar:" destination="cIH-ts-RgL" eventType="touchUpInside" id="a0j-tO-YXw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAq-vv-3g1">
+                                <rect key="frame" x="62" y="286" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="0.5" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="29"/>
+                                <state key="normal" title="$50.00">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="515" y="327" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btn50dollar:" destination="cIH-ts-RgL" eventType="touchUpInside" id="bbt-AS-xCz"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bTx-ZF-FRQ">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" backgroundImage="storecard-logo.png">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="266" y="43" width="237" height="70"/>
+                                </variation>
+                            </button>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0m-Ps-trm">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <color key="backgroundColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="587" y="28" width="100" height="100"/>
+                                </variation>
+                            </view>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="numPad_bg.png" translatesAutoresizingMaskIntoConstraints="NO" id="ApH-8b-8a6">
+                                <rect key="frame" x="0.0" y="843" width="768" height="66"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="767" width="751" height="75"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="egr-OG-qoO">
+                                <rect key="frame" x="41" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="32" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="Qzh-5e-8SJ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAd-Wz-4b7">
+                                <rect key="frame" x="111" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="102" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="DIX-TO-EXX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k6p-Ny-rJz">
+                                <rect key="frame" x="181" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="172" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="5DK-pq-qhD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CDW-Eb-24a">
+                                <rect key="frame" x="253" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="244" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="3RH-Cl-gPv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZV6-Ub-2cm">
+                                <rect key="frame" x="323" y="843" width="55" height="66"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="314" y="772" width="55" height="66"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="dgS-g8-YIY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hF4-9y-9Lo">
+                                <rect key="frame" x="393" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="384" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="Edb-gg-OoM"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I3T-7l-GK0">
+                                <rect key="frame" x="463" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="454" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="eYr-kX-iRQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1wG-8T-Ave">
+                                <rect key="frame" x="533" y="843" width="55" height="66"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="524" y="772" width="55" height="66"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="PxX-Gn-1R0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uKP-mu-Yo6">
+                                <rect key="frame" x="603" y="843" width="55" height="66"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="594" y="772" width="55" height="66"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="ZcG-cr-hIO"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ftb-ef-7W2">
+                                <rect key="frame" x="673" y="843" width="55" height="65"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="34"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="665" y="772" width="55" height="65"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnKeypadClick:" destination="cIH-ts-RgL" eventType="touchUpInside" id="nbB-6e-ejW"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RO4-ep-L1g">
+                                <rect key="frame" x="62" y="505" width="235" height="65"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="493" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnClear:" destination="cIH-ts-RgL" eventType="touchUpInside" id="YKb-Ic-ch6"/>
+                                </connections>
+                            </button>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="KM5-NX-pVs">
+                                <rect key="frame" x="-10" y="-10" width="20" height="20"/>
+                                <color key="color" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="41" y="167" width="37" height="37"/>
+                                </variation>
+                            </activityIndicatorView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iWZ-jN-44d">
+                                <rect key="frame" x="62" y="286" width="235" height="65"/>
+                                <color key="backgroundColor" red="0.40392156862745099" green="0.52156862745098043" blue="0.30980392156862746" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="Scan">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="515" y="493" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="startStopReading:" destination="cIH-ts-RgL" eventType="touchUpInside" id="TI9-Vn-wYD"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2zG-6s-E5D">
+                                <rect key="frame" x="299" y="801" width="449" height="29"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.35294117650000001" blue="0.61568627450000002" alpha="1" colorSpace="calibratedRGB"/>
+                                <accessibility key="accessibilityConfiguration" hint="7712950000000000353"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="62"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="659" width="751" height="100"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oYc-dC-H9e">
+                                <rect key="frame" x="20" y="916" width="216" height="44"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.14999999999999999" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="28"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="933" width="245" height="75"/>
+                                </variation>
+                                <connections>
+                                    <action selector="btnClearKeyPad:" destination="cIH-ts-RgL" eventType="touchUpInside" id="Ox2-tW-Jp9"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qLW-oI-ydy">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">Once you have selected dollar amount items above, tap Scan below to pull up the iOS device camera and scan customers QR code which will  process the transaction.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="447" width="751" height="38"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Manual Gift Card Entry" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VQ2-lp-4D6">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="593" width="751" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="QR Scan" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6RZ-bD-m13">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="15"/>
+                                <color key="textColor" red="0.41176470590000003" green="0.63921568630000003" blue="0.86666666670000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="425" width="751" height="21"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bQs-7M-bGy">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <string key="text">Once you have selected dollar amount items above, use the keyboard below to enter the gift card number. Once number is keyed in, tap the gift card number directly below to process transaction.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="615" width="751" height="36"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rT3-x1-ffz">
+                                <rect key="frame" x="0.0" y="134" width="768" height="103"/>
+                                <color key="backgroundColor" red="0.40000000000000002" green="0.3529411764705882" blue="0.61568627450980395" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=regular" fixedFrame="YES">
+                                    <rect key="frame" x="9" y="136" width="751" height="100"/>
+                                </variation>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.098039217293262482" green="0.098039217293262482" blue="0.098039217293262482" alpha="1" colorSpace="calibratedRGB"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="o3g-pZ-hZP"/>
+                                <exclude reference="BbL-R6-aHJ"/>
+                                <exclude reference="G35-Q8-WzB"/>
+                                <exclude reference="Zm5-aR-WM2"/>
+                                <exclude reference="W3R-VP-16L"/>
+                                <exclude reference="aGD-fJ-HTh"/>
+                                <exclude reference="eEK-Hc-aiw"/>
+                                <exclude reference="2Mf-p7-Rxm"/>
+                                <exclude reference="hAq-vv-3g1"/>
+                                <exclude reference="bTx-ZF-FRQ"/>
+                                <exclude reference="I0m-Ps-trm"/>
+                                <exclude reference="ApH-8b-8a6"/>
+                                <exclude reference="egr-OG-qoO"/>
+                                <exclude reference="GAd-Wz-4b7"/>
+                                <exclude reference="k6p-Ny-rJz"/>
+                                <exclude reference="CDW-Eb-24a"/>
+                                <exclude reference="ZV6-Ub-2cm"/>
+                                <exclude reference="hF4-9y-9Lo"/>
+                                <exclude reference="I3T-7l-GK0"/>
+                                <exclude reference="1wG-8T-Ave"/>
+                                <exclude reference="uKP-mu-Yo6"/>
+                                <exclude reference="Ftb-ef-7W2"/>
+                                <exclude reference="RO4-ep-L1g"/>
+                                <exclude reference="KM5-NX-pVs"/>
+                                <exclude reference="iWZ-jN-44d"/>
+                                <exclude reference="2zG-6s-E5D"/>
+                                <exclude reference="oYc-dC-H9e"/>
+                                <exclude reference="qLW-oI-ydy"/>
+                                <exclude reference="VQ2-lp-4D6"/>
+                                <exclude reference="6RZ-bD-m13"/>
+                                <exclude reference="bQs-7M-bGy"/>
+                                <exclude reference="rT3-x1-ffz"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="subviews">
+                                <include reference="o3g-pZ-hZP"/>
+                                <include reference="BbL-R6-aHJ"/>
+                                <include reference="G35-Q8-WzB"/>
+                                <include reference="Zm5-aR-WM2"/>
+                                <include reference="W3R-VP-16L"/>
+                                <include reference="aGD-fJ-HTh"/>
+                                <include reference="eEK-Hc-aiw"/>
+                                <include reference="2Mf-p7-Rxm"/>
+                                <include reference="hAq-vv-3g1"/>
+                                <include reference="bTx-ZF-FRQ"/>
+                                <include reference="I0m-Ps-trm"/>
+                                <include reference="ApH-8b-8a6"/>
+                                <include reference="egr-OG-qoO"/>
+                                <include reference="GAd-Wz-4b7"/>
+                                <include reference="k6p-Ny-rJz"/>
+                                <include reference="CDW-Eb-24a"/>
+                                <include reference="ZV6-Ub-2cm"/>
+                                <include reference="hF4-9y-9Lo"/>
+                                <include reference="I3T-7l-GK0"/>
+                                <include reference="1wG-8T-Ave"/>
+                                <include reference="uKP-mu-Yo6"/>
+                                <include reference="Ftb-ef-7W2"/>
+                                <include reference="RO4-ep-L1g"/>
+                                <include reference="KM5-NX-pVs"/>
+                                <include reference="iWZ-jN-44d"/>
+                                <include reference="2zG-6s-E5D"/>
+                                <include reference="oYc-dC-H9e"/>
+                                <include reference="qLW-oI-ydy"/>
+                                <include reference="VQ2-lp-4D6"/>
+                                <include reference="6RZ-bD-m13"/>
+                                <include reference="bQs-7M-bGy"/>
+                                <include reference="rT3-x1-ffz"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="activityIndicator" destination="KM5-NX-pVs" id="tZM-ZJ-Jay"/>
+                        <outlet property="btn10dollar" destination="Zm5-aR-WM2" id="nRI-Vu-3pS"/>
+                        <outlet property="btn1dollar" destination="eEK-Hc-aiw" id="G94-p1-EMM"/>
+                        <outlet property="btn20dollar" destination="2Mf-p7-Rxm" id="S6J-sf-Bp5"/>
+                        <outlet property="btn2dollar" destination="aGD-fJ-HTh" id="a0x-kE-SAm"/>
+                        <outlet property="btn50dollar" destination="hAq-vv-3g1" id="qtD-YY-PSY"/>
+                        <outlet property="btn5dollar" destination="W3R-VP-16L" id="NNl-vK-Aee"/>
+                        <outlet property="btnGiftSale" destination="rT3-x1-ffz" id="0l5-c6-9EC"/>
+                        <outlet property="btnScan" destination="iWZ-jN-44d" id="ASJ-Kw-PXA"/>
+                        <outlet property="lblDollarAmount" destination="BbL-R6-aHJ" id="fKF-7c-Ntr"/>
+                        <outlet property="lblKeyedSV" destination="2zG-6s-E5D" id="D0R-c0-SRv"/>
+                        <outlet property="lblTranType" destination="G35-Q8-WzB" id="Cgx-qe-Wzl"/>
+                        <outlet property="lbltemsPurchased" destination="o3g-pZ-hZP" id="cMc-Uo-Wpe"/>
+                        <outlet property="viewPreview" destination="I0m-Ps-trm" id="5Cl-xP-AOp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M7r-di-q9E" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-7485.75" y="-2551.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="numPad_bg.png" width="250" height="300"/>
+        <image name="storecard-logo.png" width="484" height="143"/>
+    </resources>
+</document>

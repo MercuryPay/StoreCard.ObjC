@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A5024C11A70C1D2009CF71D /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5024C01A70C1D2009CF71D /* beep.mp3 */; };
+		C294390419F5B56700E72D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29438FB19F5B56700E72D13 /* AppDelegate.m */; };
+		C294390719F5B56700E72D13 /* StoreCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C294390119F5B56700E72D13 /* StoreCard.m */; };
+		C294393519F5B60900E72D13 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C294393419F5B60900E72D13 /* AVFoundation.framework */; };
+		C294393719F5B61000E72D13 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C294393619F5B61000E72D13 /* CoreMedia.framework */; };
+		C294393919F5B61600E72D13 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C294393819F5B61600E72D13 /* CoreVideo.framework */; };
+		C294393B19F5B61C00E72D13 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C294393A19F5B61C00E72D13 /* QuartzCore.framework */; };
+		C294393D19F5B63100E72D13 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C294393C19F5B63100E72D13 /* libiconv.dylib */; };
+		C297A1D019E5F1B700572E75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C297A1CF19E5F1B700572E75 /* main.m */; };
+		C297A1DC19E5F1B800572E75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C297A1DA19E5F1B800572E75 /* Main.storyboard */; };
+		C297A1DE19E5F1B800572E75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C297A1DD19E5F1B800572E75 /* Images.xcassets */; };
+		C29DEE3D19FEA42400F6A9A4 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C29DEE3C19FEA42400F6A9A4 /* MessageUI.framework */; };
+		C29DEE4719FEB2D200F6A9A4 /* storecard-logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C29DEE4619FEB2D200F6A9A4 /* storecard-logo@2x.png */; };
+		C29DEE4F19FEC69900F6A9A4 /* btnScan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C29DEE4E19FEC69900F6A9A4 /* btnScan@2x.png */; };
+		C2CD2F9519F71D93007B272B /* logo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2CD2F9419F71D93007B272B /* logo@2x.png */; };
+		C2EFB4DB19F5B75C008B7918 /* numPad_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EFB4C619F5B75C008B7918 /* numPad_bg@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3A5024C01A70C1D2009CF71D /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		C29438FA19F5B56700E72D13 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C29438FB19F5B56700E72D13 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C294390019F5B56700E72D13 /* StoreCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCard.h; sourceTree = "<group>"; };
+		C294390119F5B56700E72D13 /* StoreCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StoreCard.m; sourceTree = "<group>"; };
+		C294393419F5B60900E72D13 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C294393619F5B61000E72D13 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		C294393819F5B61600E72D13 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		C294393A19F5B61C00E72D13 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C294393C19F5B63100E72D13 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		C297A1CA19E5F1B700572E75 /* StoreCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StoreCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C297A1CF19E5F1B700572E75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C297A1DB19E5F1B800572E75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C297A1DD19E5F1B800572E75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C29DEE3C19FEA42400F6A9A4 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		C29DEE4619FEB2D200F6A9A4 /* storecard-logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "storecard-logo@2x.png"; sourceTree = "<group>"; };
+		C29DEE4E19FEC69900F6A9A4 /* btnScan@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btnScan@2x.png"; sourceTree = "<group>"; };
+		C2CD2F9419F71D93007B272B /* logo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo@2x.png"; sourceTree = "<group>"; };
+		C2EFB4C619F5B75C008B7918 /* numPad_bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "numPad_bg@2x.png"; sourceTree = "<group>"; };
+		C2EFB4DC19F5B826008B7918 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C297A1C719E5F1B700572E75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C294393D19F5B63100E72D13 /* libiconv.dylib in Frameworks */,
+				C29DEE3D19FEA42400F6A9A4 /* MessageUI.framework in Frameworks */,
+				C294393B19F5B61C00E72D13 /* QuartzCore.framework in Frameworks */,
+				C294393919F5B61600E72D13 /* CoreVideo.framework in Frameworks */,
+				C294393719F5B61000E72D13 /* CoreMedia.framework in Frameworks */,
+				C294393519F5B60900E72D13 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C29438F919F5B56700E72D13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C29438FA19F5B56700E72D13 /* AppDelegate.h */,
+				C29438FB19F5B56700E72D13 /* AppDelegate.m */,
+				C294390019F5B56700E72D13 /* StoreCard.h */,
+				C294390119F5B56700E72D13 /* StoreCard.m */,
+			);
+			name = Controllers;
+			path = StoreCard/Controllers;
+			sourceTree = "<group>";
+		};
+		C297A1C119E5F1B700572E75 = {
+			isa = PBXGroup;
+			children = (
+				C297A1CC19E5F1B700572E75 /* StoreCard */,
+				C29438F919F5B56700E72D13 /* Controllers */,
+				C297A1CB19E5F1B700572E75 /* Products */,
+				C2EFB4DF19F5BA69008B7918 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C297A1CB19E5F1B700572E75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C297A1CA19E5F1B700572E75 /* StoreCard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C297A1CC19E5F1B700572E75 /* StoreCard */ = {
+			isa = PBXGroup;
+			children = (
+				C297A1DA19E5F1B800572E75 /* Main.storyboard */,
+				C297A1DD19E5F1B800572E75 /* Images.xcassets */,
+				C297A1CD19E5F1B700572E75 /* Supporting Files */,
+			);
+			path = StoreCard;
+			sourceTree = "<group>";
+		};
+		C297A1CD19E5F1B700572E75 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A5024C01A70C1D2009CF71D /* beep.mp3 */,
+				C294393C19F5B63100E72D13 /* libiconv.dylib */,
+				C2EFB4DC19F5B826008B7918 /* Info.plist */,
+				C2EFB4B119F5B75C008B7918 /* Images */,
+				C297A1CF19E5F1B700572E75 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C2EFB4B119F5B75C008B7918 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				C29DEE4E19FEC69900F6A9A4 /* btnScan@2x.png */,
+				C29DEE4619FEB2D200F6A9A4 /* storecard-logo@2x.png */,
+				C2CD2F9419F71D93007B272B /* logo@2x.png */,
+				C2EFB4C619F5B75C008B7918 /* numPad_bg@2x.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		C2EFB4DF19F5BA69008B7918 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C29DEE3C19FEA42400F6A9A4 /* MessageUI.framework */,
+				C294393A19F5B61C00E72D13 /* QuartzCore.framework */,
+				C294393819F5B61600E72D13 /* CoreVideo.framework */,
+				C294393619F5B61000E72D13 /* CoreMedia.framework */,
+				C294393419F5B60900E72D13 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			path = StoreCard/Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C297A1C919E5F1B700572E75 /* StoreCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C297A1F019E5F1B800572E75 /* Build configuration list for PBXNativeTarget "StoreCard" */;
+			buildPhases = (
+				C297A1C619E5F1B700572E75 /* Sources */,
+				C297A1C719E5F1B700572E75 /* Frameworks */,
+				C297A1C819E5F1B700572E75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StoreCard;
+			productName = StoreCard;
+			productReference = C297A1CA19E5F1B700572E75 /* StoreCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C297A1C219E5F1B700572E75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = mercurypay;
+				TargetAttributes = {
+					C297A1C919E5F1B700572E75 = {
+						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = QCUYL5MAX2;
+					};
+				};
+			};
+			buildConfigurationList = C297A1C519E5F1B700572E75 /* Build configuration list for PBXProject "StoreCard" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C297A1C119E5F1B700572E75;
+			productRefGroup = C297A1CB19E5F1B700572E75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C297A1C919E5F1B700572E75 /* StoreCard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C297A1C819E5F1B700572E75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C297A1DC19E5F1B800572E75 /* Main.storyboard in Resources */,
+				C29DEE4F19FEC69900F6A9A4 /* btnScan@2x.png in Resources */,
+				C29DEE4719FEB2D200F6A9A4 /* storecard-logo@2x.png in Resources */,
+				C2CD2F9519F71D93007B272B /* logo@2x.png in Resources */,
+				C2EFB4DB19F5B75C008B7918 /* numPad_bg@2x.png in Resources */,
+				3A5024C11A70C1D2009CF71D /* beep.mp3 in Resources */,
+				C297A1DE19E5F1B800572E75 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C297A1C619E5F1B700572E75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C294390719F5B56700E72D13 /* StoreCard.m in Sources */,
+				C294390419F5B56700E72D13 /* AppDelegate.m in Sources */,
+				C297A1D019E5F1B700572E75 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C297A1DA19E5F1B800572E75 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C297A1DB19E5F1B800572E75 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C297A1EE19E5F1B800572E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		C297A1EF19E5F1B800572E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C297A1F119E5F1B800572E75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = StoreCard/Info.plist;
+				"INFOPLIST_FILE[sdk=*]" = "$(inherited)";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		C297A1F219E5F1B800572E75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = StoreCard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C297A1C519E5F1B700572E75 /* Build configuration list for PBXProject "StoreCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C297A1EE19E5F1B800572E75 /* Debug */,
+				C297A1EF19E5F1B800572E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C297A1F019E5F1B800572E75 /* Build configuration list for PBXNativeTarget "StoreCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C297A1F119E5F1B800572E75 /* Debug */,
+				C297A1F219E5F1B800572E75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C297A1C219E5F1B700572E75 /* Project object */;
+}
