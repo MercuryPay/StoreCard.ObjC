@@ -26,6 +26,9 @@ Create a NSMutableDictionary and add all the Key Value Pairs.
 ```Objective-C
     - (IBAction)startStopReading:(id)sender;
     
+```
+
+```
     - (IBAction)startStopReading:(id)sender {
     if (!_isReading) {
         // This is the case where the app should read a QR code when the start button is tapped.
