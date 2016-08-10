@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3A5024C11A70C1D2009CF71D /* beep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3A5024C01A70C1D2009CF71D /* beep.mp3 */; };
+		C26DF8651D5BA5C30023E013 /* storecard_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C26DF8641D5BA5C30023E013 /* storecard_logo.png */; };
 		C294390419F5B56700E72D13 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29438FB19F5B56700E72D13 /* AppDelegate.m */; };
 		C294390719F5B56700E72D13 /* StoreCard.m in Sources */ = {isa = PBXBuildFile; fileRef = C294390119F5B56700E72D13 /* StoreCard.m */; };
 		C294393519F5B60900E72D13 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C294393419F5B60900E72D13 /* AVFoundation.framework */; };
@@ -27,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		3A5024C01A70C1D2009CF71D /* beep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep.mp3; sourceTree = "<group>"; };
+		C26DF8641D5BA5C30023E013 /* storecard_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = storecard_logo.png; sourceTree = "<group>"; };
 		C29438FA19F5B56700E72D13 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		C29438FB19F5B56700E72D13 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		C294390019F5B56700E72D13 /* StoreCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StoreCard.h; sourceTree = "<group>"; };
@@ -120,6 +122,7 @@
 		C2EFB4B119F5B75C008B7918 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				C26DF8641D5BA5C30023E013 /* storecard_logo.png */,
 				C29DEE4E19FEC69900F6A9A4 /* btnScan@2x.png */,
 				C29DEE4619FEB2D200F6A9A4 /* storecard-logo@2x.png */,
 				C2CD2F9419F71D93007B272B /* logo@2x.png */,
@@ -172,7 +175,7 @@
 				TargetAttributes = {
 					C297A1C919E5F1B700572E75 = {
 						CreatedOnToolsVersion = 6.0.1;
-						DevelopmentTeam = QCUYL5MAX2;
+						DevelopmentTeam = PUB4QC7GDV;
 					};
 				};
 			};
@@ -203,6 +206,7 @@
 				C29DEE4F19FEC69900F6A9A4 /* btnScan@2x.png in Resources */,
 				C29DEE4719FEB2D200F6A9A4 /* storecard-logo@2x.png in Resources */,
 				C2CD2F9519F71D93007B272B /* logo@2x.png in Resources */,
+				C26DF8651D5BA5C30023E013 /* storecard_logo.png in Resources */,
 				C2EFB4DB19F5B75C008B7918 /* numPad_bg@2x.png in Resources */,
 				3A5024C11A70C1D2009CF71D /* beep.mp3 in Resources */,
 				C297A1DE19E5F1B800572E75 /* Images.xcassets in Resources */,
