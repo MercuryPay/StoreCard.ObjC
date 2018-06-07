@@ -1,5 +1,8 @@
 StoreCard (PrePaid) StoredValue iPad Application Demo
 =========
+
+<a href="https://developer.vantiv.com/?utm_campaign=githubcta&utm_medium=hyperlink&utm_source=github&utm_content=gotquestions">Got questions? Connect with our experts on Vantiv ONE.</a>
+  
 This is a resource for developers and interested payment integrators to see how simple it is to get your iOS POS to integrate with Mercury StoreCard.
 
 **iOS Simulator Note:** QR Code will not scan without building on an actual iPad device. If iOS simulating please make sure you use iPad2
